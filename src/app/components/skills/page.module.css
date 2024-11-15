@@ -1,0 +1,67 @@
+/* "py-20 bg-[rgb(45,45,45)] text-white text-center" */
+
+.skillsSec{
+    padding: 80px 0;
+    background-color:rgb(45,45,45);
+    color: white;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+/* text-3xl font-semibold mb-6 underline  */
+.skillsHeading{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+}
+
+/* "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6" */
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.box{
+    /* "p-6 bg-gray-950 rounded-lg border-4 " */
+    padding: 1.5rem;
+    background-color: #030712;
+    border-radius: 0.5rem;
+    border: 4px solid white;
+}
+
+.inline{
+    display: inline;
+}
+
+.boxText{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* "md:col-span-4 md:w-1/4 md:m-auto " */
+
+/* sm */
+@media screen and (min-width:640px){
+    .main{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+
+/* md */
+@media screen and (min-width:768px){
+    .main{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .lastBox{
+        grid-column: span 4;
+        width: 25%;
+        margin: auto;
+    }
+}

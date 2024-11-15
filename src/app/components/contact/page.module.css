@@ -1,0 +1,80 @@
+/* "py-20 bg-gray-950 text-center" */
+.contactSec{
+    padding: 80px 0;
+    background-color: #030712;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+/* text-3xl font-semibold mb-4 text-white underline */
+.heading{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+    text-decoration: underline;
+}
+
+.inline{
+    display: inline;    
+}
+
+/* text-lg text-gray-500 mb-6 */
+
+.contactPara{
+    font-size: 18px;
+    color: #686F7D;
+    margin-bottom: 1.5rem;
+}
+
+.email{
+    /* px-8 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-500` */
+    padding: .5rem 2rem;
+    background: #2563EB;
+    color: white;
+    border-radius: 12px;
+}
+.email:hover{
+    background: #185beb;
+}
+
+/* "mt-8 flex justify-center space-x-6" */
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    /* margin: 2rem 1.5rem 0 1.5rem; */
+    gap: 1.5rem;
+}
+
+/* "text-3xl text-blue-600 hover:text-blue-500" */
+.linkedin{
+    font-size: 30px;
+    color: #3B82F6;
+}
+.linkedin:hover{
+    color: #2173f6;
+}
+
+/* "text-3xl text-gray-900 hover:text-gray-700" */
+.git{
+    font-size: 30px;
+    color: #374151;
+}
+
+.git:hover{
+    color: #242a34;
+}
+
+/* "text-3xl text-orange-500 hover:text-orange-400" */
+
+.npm{
+    font-size: 30px;
+    color: #f98425;
+}
+.npm:hover{
+    color: #FB923C;
+}
