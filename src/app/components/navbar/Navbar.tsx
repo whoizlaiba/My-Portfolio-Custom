@@ -13,7 +13,8 @@ export default function Navbar() {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return (
-        <div className={style.main}>
+        <div className={`${style.nav} `}>
+      
             <div className={style.container}>
                 <div className={style.nameContainer}>
                     <h1 className="caveat-uniquifier">Laiba Parvez</h1>
@@ -88,3 +89,9 @@ export default function Navbar() {
         </div>
     );
 }
+
+
+
+
+
+
